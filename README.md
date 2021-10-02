@@ -6,14 +6,14 @@ The purpose of the movie recommendation system is to search for content that wou
 |S.No.| Content |
 |:--:|:--------------------:|
 | 1. | [Overview](#overview) |
-| 2. | Motivaton and Goal |
-| 3. | About the Dataset |
-| 4. | Downloading the Dataset|
-| 5. | Tech/Framework Used |
-| 6. | Component 1 Description|
-| 7. | Component 2 Description|
-| 8. | Project Workflow |
-| 9. | Scope/ Improvement |
+| 2. | [Motivaton and Goal](#motivation-and-goal) |
+| 3. | [About the Dataset](#about-the-dataset) |
+| 4. | [Downloading the Dataset](#downloading-the-dataset)|
+| 5. | [Tech/Framework Used](#tech-framework-used) |
+| 6. | [Component 1 Description](#component-1-description)|
+| 7. | [Component 2 Description](#component-2-description)|
+| 8. | [Project Workflow](#project-workflow) |
+| 9. | [Scope/ Improvement](#scope-improvement) |
 
 
 ## OVERVIEW
@@ -50,7 +50,7 @@ The RAVDESS Dataset can be downloaded from kaggle using the following link
     https://www.kaggle.com/uwrfkaggler/ravdess-emotional-speech-audio
 
 
-## TECH/FRAMEWORK USED
+## TECH/ FRAMEWORK USED
 
 |       |       |      |
 |:-----:|:-----:|:----:|
