@@ -44,6 +44,10 @@ We have used the RAVDESS (Ryerson Audio-Visual Database of Emotional Speech and 
 Here's an example of an audio filename. 02-01-06-01-02-01-12.mp4
 
 ## DOWNLOADING THE DATASET
+The RAVDESS Dataset can be downloaded from kaggle using the following link
+
+    >https://www.kaggle.com/uwrfkaggler/ravdess-emotional-speech-audio
+
 
 ## TECH/FRAMEWORK USED
 |       |       |      |
@@ -76,6 +80,7 @@ This component takes an audio input and recognises the emotion of the speaker. T
 >The model is trained using 1D CNN with three convolutional layers and one output layer and an accuracy score of 81.57% is obtained on the test set. 
 >Generally, the average accuracy of the SER Models is 75%. Thus, we have obtained an optimal accuracy score.
 
+
 ## COMPONENT 2
 ### MOVIE RECOMMENDER SYSTEM
 This component takes the emotion of the user predicted by the SER Model as input and recommends the latest movies accordingly.
@@ -95,7 +100,7 @@ This process is done through Web Scraing the IMBb(Internet Movie Database) websi
 
 >*Further the Movie Recommender System can be integrated with filters such as recommending the movies on the basis on emotion and gender rather than just emotion. The SER Model can predict emotion as well as gender. So this feature will be helpful in adding on a filter according to the gender.*
 
->*Right now, the deployment of the SER Model is successful. The Movie Recommender System is yet to be incorporated with it. *
+>*Right now, the deployment of the SER Model is successful. The Movie Recommender System is yet to be incorporated with it.*
 
 
 
