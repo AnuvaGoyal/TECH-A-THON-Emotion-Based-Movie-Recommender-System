@@ -76,7 +76,10 @@ This process is done through Web Scraing the IMBb(Internet Movie Database) websi
 
 ## SCOPE/IMPROVEMENT
 >The SER model can be improved to a better accuracy through training on a larger dataset.
+
 >More emotions can be added to the Speech Emotion Recognizer Dataset.
+
 >More features can be incorporated in the model through refining the dataset with more labels.
+
 >Further the Movie Recommender System can be integrated with filters such as recommending the movies on the basis on emotion, gender and age rather than just emotion.
 
