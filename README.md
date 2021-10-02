@@ -11,7 +11,8 @@ The purpose of the movie recommendation system is to search for content that wou
 | 5. | Tech/Framework Used |
 | 6. | Component 1 Description|
 | 7. | Component 2 Description|
-| 8. | Scope/ Improvement |
+| 8. | Project Workflow |
+| 9. | Scope/ Improvement |
 
 ## OVERVIEW
 The user will be given two options, either to enter his/her mood preference or to simply give a speech input and let the system decide the mood of the user. Thereafter, the system will then recommend the movies.
@@ -74,6 +75,12 @@ This component takes the emotion of the user predicted by the SER Model as input
 ##### Web Scraping
 This process is done through Web Scraing the IMBb(Internet Movie Database) website. The dataframe given as output contains the names of the movies, their ratings and the corresponding links to visit the website for further information, classified according to the emotion.
 
+## PROJECT WORKFLOW
+<p align = "center"><img src = "https://user-images.githubusercontent.com/86526643/135710333-343d5b07-2446-41dc-a840-f310d7cbe74c.png"></p>
+
+![workflow](https://user-images.githubusercontent.com/86526643/135710333-343d5b07-2446-41dc-a840-f310d7cbe74c.png)
+
+
 ## SCOPE/IMPROVEMENT
 >The SER model can be improved to a better accuracy through training on a larger dataset.
 
@@ -83,4 +90,3 @@ This process is done through Web Scraing the IMBb(Internet Movie Database) websi
 
 >Further the Movie Recommender System can be integrated with filters such as recommending the movies on the basis on emotion, gender and age rather than just emotion.
 
-![workflow](https://user-images.githubusercontent.com/86526643/135710333-343d5b07-2446-41dc-a840-f310d7cbe74c.png)
