@@ -48,38 +48,35 @@ Here's an example of an audio filename. 02-01-06-01-02-01-12.mp4
 
 
 ## COMPONENT 1
-#### SPEECH EMOTION RECOGNITION
+### SPEECH EMOTION RECOGNITION
 Speech Emotion Recognition (SER) is the task of recognizing the emotional aspects of speech irrespective of the semantic contents.
 
 This component takes an audio input and recognises the emotion of the speaker. The steps involved are as follows:
-##### 1. EXPLORATORY DATA ANALYSIS (EDA) OF THE DATASET
+#### 1. EXPLORATORY DATA ANALYSIS (EDA) OF THE DATASET
 >The key features of the audio data are namely, MFCC (Mel Frequency Cepstral Coefficients), Mel Spectrogram and Chroma.
     
-##### 2. DATA AUGMENTATION
+#### 2. DATA AUGMENTATION
 >Data augmentation is the process by which we create new synthetic data samples by adding small perturbations on our initial training set.
 >To generate syntactic data for audio, we can apply noise injection, shifting time, changing pitch and speed.
     
-##### 3. FEATURE EXTRACTION
+#### 3. FEATURE EXTRACTION
 >The acoustic charac-teristics of the speech signal features such as pitch, energy, zero crossing rates, Mel Frequency Cepstral Coeﬃcients and Discrete Wavelet Transform        are extracted to analyze the signal .
      
-##### 4. Data Preprocessing
+#### 4. Data Preprocessing
 >This involves splitting the dataset into training ans test set, encoding the categorical variables using OneHotEncoder and scaling the values using StandardScaler.
      
-##### 4. MODEL BUILDING
+#### 5. MODEL BUILDING
 >The model is trained using 1D CNN with three convolutional layers and one output layer and obtained an accuracy score oftest set
 
 ## COMPONENT 2
-#### MOVIE RECOMMENDER SYSTEM
+### MOVIE RECOMMENDER SYSTEM
 This component takes the emotion of the user predicted by the SER Model as input and recommends the latest movies accordingly.
 
-##### Web Scraping
+#### Web Scraping
 This process is done through Web Scraing the IMBb(Internet Movie Database) website. The dataframe given as output contains the names of the movies, their ratings and the corresponding links to visit the website for further information, classified according to the emotion.
 
 ## PROJECT WORKFLOW
 <p align = "center"><img src = "https://user-images.githubusercontent.com/86526643/135710333-343d5b07-2446-41dc-a840-f310d7cbe74c.png"></p>
-
-![workflow](https://user-images.githubusercontent.com/86526643/135710333-343d5b07-2446-41dc-a840-f310d7cbe74c.png)
-
 
 ## SCOPE/IMPROVEMENT
 >The SER model can be improved to a better accuracy through training on a larger dataset.
