@@ -23,7 +23,7 @@ Component 2: Movie Recommendation System
 The existing movie recommender systems (Netflix, Amazon Prime, 123movies, FMovies, etc.) work on browsing history of an individual, ratings of the movie, genres, popularity and trends. This project model will complement such systems by providing a new filter.
 
 ## ABOUT THE DATASET
-We will use the RAVDESS (Ryerson Audio-Visual Database of Emotional Speech and Song) dataset that contains 7356 files. It is one of the most common datasets used for this exercise because of its quality of speakers, recording and it has 24 actors of different genders. Here's the filename identifiers as per the official RAVDESS website:
+We have used the RAVDESS (Ryerson Audio-Visual Database of Emotional Speech and Song) dataset that contains 7356 files. It is one of the most common datasets used for this exercise because of its quality of speakers, recording and it has 24 actors of different genders. Here's the filename identifiers as per the official RAVDESS website:
 
 >	Modality (01 = full-AV, 02 = video-only, 03 = audio-only).
 
@@ -65,10 +65,18 @@ This component takes an audio input and recognises the emotion of the speaker. T
 >This involves splitting the dataset into training ans test set, encoding the categorical variables using OneHotEncoder and scaling the values using StandardScaler.
      
 ##### 4. MODEL BUILDING
->The model is trained using 1D CNN with three convolutional layers and one output layer and obtained an accuracy score of 48% on my test set
+>The model is trained using 1D CNN with three convolutional layers and one output layer and obtained an accuracy score oftest set
 
 ## COMPONENT 2
+#### MOVIE RECOMMENDER SYSTEM
+This component takes the emotion of the user predicted by the SER Model as input and recommends the latest movies accordingly.
 
+##### Web Scraping
+This process is done through Web Scraing the IMBb(Internet Movie Database) website. The dataframe given as output contains the names of the movies, their ratings and the corresponding links to visit the website for further information, classified according to the emotion.
 
-
+## SCOPE/IMPROVEMENT
+>The SER model can be improved to a better accuracy through training on a larger dataset.
+>More emotions can be added to the Speech Emotion Recognizer Dataset.
+>More features can be incorporated in the model through refining the dataset with more labels.
+>Further the Movie Recommender System can be integrated with filters such as recommending the movies on the basis on emotion, gender and age rather than just emotion.
 
