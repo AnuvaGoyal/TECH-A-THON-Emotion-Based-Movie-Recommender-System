@@ -13,7 +13,8 @@ The purpose of the movie recommendation system is to search for content that wou
 | 6. | [Component 1 Description](#component-1-description)|
 | 7. | [Component 2 Description](#component-2-description)|
 | 8. | [Project Workflow](#project-workflow) |
-| 9. | [Scope/ Improvement](#scope-improvement) |
+| 9. | [CNN Architechture of SER Model](#cnn-architecture-of-ser-model)|
+| 10. | [Scope/ Improvement](#scope-improvement) |
 
 
 ## OVERVIEW
@@ -60,7 +61,7 @@ The RAVDESS Dataset can be downloaded from kaggle using the following link
 
 
 
-## COMPONENT 1
+## COMPONENT 1 DESCRIPTION
 ### SPEECH EMOTION RECOGNITION
 Speech Emotion Recognition (SER) is the task of recognizing the emotional aspects of speech irrespective of the semantic contents.
 
@@ -75,7 +76,7 @@ This component takes an audio input and recognises the emotion of the speaker. T
 #### 3. FEATURE EXTRACTION
 >The acoustic charac-teristics of the speech signal features such as pitch, energy, zero crossing rates, Mel Frequency Cepstral Coeﬃcients and Discrete Wavelet Transform        are extracted to analyze the signal .
      
-#### 4. Data Preprocessing
+#### 4. DATA PREPROCESSING
 >This involves splitting the dataset into training ans test set, encoding the categorical variables using OneHotEncoder and scaling the values using StandardScaler.
      
 #### 5. MODEL BUILDING
@@ -83,7 +84,7 @@ This component takes an audio input and recognises the emotion of the speaker. T
 >Generally, the average accuracy of the SER Models is 75%. Thus, we have obtained an optimal accuracy score.
 
 
-## COMPONENT 2
+## COMPONENT 2 DESCRIPTION
 ### MOVIE RECOMMENDER SYSTEM
 This component takes the emotion of the user predicted by the SER Model as input and recommends the latest movies accordingly.
 
@@ -92,6 +93,10 @@ This process is done through Web Scraing the IMBb(Internet Movie Database) websi
 
 ## PROJECT WORKFLOW
 <p align = "center"><img src = "https://user-images.githubusercontent.com/86526643/135710333-343d5b07-2446-41dc-a840-f310d7cbe74c.png"></p>
+
+## CNN ARCHITECTURE OF SER MODEL
+<p align="center"><img src = "https://user-images.githubusercontent.com/86526643/135715935-616a4aa7-3e2f-4372-8c3f-2a6fe93aff63.png" width="500px">
+</p>
 
 ## SCOPE/ IMPROVEMENT
 >The SER model can be improved to a better accuracy through training on a larger dataset.
@@ -103,8 +108,6 @@ This process is done through Web Scraing the IMBb(Internet Movie Database) websi
 >*Further the Movie Recommender System can be integrated with filters such as recommending the movies on the basis on emotion and gender rather than just emotion. The SER Model can predict emotion as well as gender. So this feature will be helpful in adding on a filter according to the gender.*
 
 >*Right now, the deployment of the SER Model is successful. The Movie Recommender System is yet to be incorporated with it.*
-
-
 
 
 
