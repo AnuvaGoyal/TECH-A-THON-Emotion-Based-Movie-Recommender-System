@@ -79,7 +79,7 @@ This component takes an audio input and recognises the emotion of the speaker. T
 >This involves splitting the dataset into training ans test set, encoding the categorical variables using OneHotEncoder and scaling the values using StandardScaler.
      
 #### 5. MODEL BUILDING
->The model is trained using 1D CNN with three convolutional layers and one output layer and an accuracy score of 81.57% is obtained on the test set. 
+>The model is trained using 1D CNN with three convolutional layers and an accuracy score of 81.57% is obtained on the test set. 
 >Generally, the average accuracy of the SER Models is 75%. Thus, we have obtained an optimal accuracy score.
 
 
