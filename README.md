@@ -93,7 +93,7 @@ This process is done through Web Scraing the IMBb(Internet Movie Database) websi
 ## PROJECT WORKFLOW
 <p align = "center"><img src = "https://user-images.githubusercontent.com/86526643/135710333-343d5b07-2446-41dc-a840-f310d7cbe74c.png"></p>
 
-## SCOPE/IMPROVEMENT
+## SCOPE/ IMPROVEMENT
 >The SER model can be improved to a better accuracy through training on a larger dataset.
 
 >More emotions can be added to the Speech Emotion Recognizer Dataset.
