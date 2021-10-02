@@ -48,9 +48,9 @@ Here's an example of an audio filename. 02-01-06-01-02-01-12.mp4
 ## TECH/FRAMEWORK USED
 |       |       |      |
 |:-----:|:-----:|:----:|
-|<img src="https://user-images.githubusercontent.com/86526643/135712315-184057b0-2ec3-4dbd-a89f-99f2dbf409c4.png" width="200px">|![1200px-Pandas_logo svg](https://user-images.githubusercontent.com/86526643/135712327-5974e3c1-e6af-419a-816f-f3b392de355c.png)|![keras](https://user-images.githubusercontent.com/86526643/135712364-a4efcd4b-0d26-4ab6-915d-458c04735697.jpeg)|
-|![ipython-logo-300](https://user-images.githubusercontent.com/86526643/135712351-8703df40-fe71-48e8-800a-ea722435303a.png)|![1200px-Scikit_learn_logo_small svg](https://user-images.githubusercontent.com/86526643/135712334-a6929aec-e345-42b6-b39e-2cad2ae05472.png)|![sns](https://user-images.githubusercontent.com/86526643/135712460-e6c71771-c643-4c9b-806d-787faf5ac7b3.png)|
-|![matplotlib](https://user-images.githubusercontent.com/86526643/135712409-cd56d94b-3f14-4617-8809-3bb7b89608b2.jpg)|![librosa](https://user-images.githubusercontent.com/86526643/135712371-a8bede05-4a98-4e79-bfd1-f1a597bd00f0.png)|![Kaggle_logo](https://user-images.githubusercontent.com/86526643/135713149-0ba7f309-c62b-46eb-bd13-af2cc79e976f.png)
+|<img src="https://user-images.githubusercontent.com/86526643/135712315-184057b0-2ec3-4dbd-a89f-99f2dbf409c4.png" width="150px">|<img src="https://user-images.githubusercontent.com/86526643/135712327-5974e3c1-e6af-419a-816f-f3b392de355c.png" width="150px">|<img src="https://user-images.githubusercontent.com/86526643/135712364-a4efcd4b-0d26-4ab6-915d-458c04735697.jpeg" width="150px">|
+|<img src="https://user-images.githubusercontent.com/86526643/135712351-8703df40-fe71-48e8-800a-ea722435303a.png" width="150px">|<img src="https://user-images.githubusercontent.com/86526643/135712334-a6929aec-e345-42b6-b39e-2cad2ae05472.png" width="150px">|<img src="https://user-images.githubusercontent.com/86526643/135712460-e6c71771-c643-4c9b-806d-787faf5ac7b3.png" width="150px">|
+|<img src="https://user-images.githubusercontent.com/86526643/135712409-cd56d94b-3f14-4617-8809-3bb7b89608b2.jpg" width="150px">|<img src="https://user-images.githubusercontent.com/86526643/135712371-a8bede05-4a98-4e79-bfd1-f1a597bd00f0.png" width="150px">|<img src="https://user-images.githubusercontent.com/86526643/135713149-0ba7f309-c62b-46eb-bd13-af2cc79e976f.png" width="150px">|
 
 
 
