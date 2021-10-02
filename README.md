@@ -9,8 +9,9 @@ The purpose of the movie recommendation system is to search for content that wou
 | 3. | About the Dataset |
 | 4. | Installation|
 | 5. | Tech/Framework Used |
-| 6. | Component 1 |
-| 7. | Component 2 |
+| 6. | Component 1 Description|
+| 7. | Component 2 Description|
+| 8. | Scope/ Improvement |
 
 ## OVERVIEW
 The user will be given two options, either to enter his/her mood preference or to simply give a speech input and let the system decide the mood of the user. Thereafter, the system will then recommend the movies.
@@ -38,16 +39,38 @@ We will use the RAVDESS (Ryerson Audio-Visual Database of Emotional Speech and S
 
 >	Actor (01 to 24. Odd numbered actors are male, even numbered actors are female).
 
+Here's an example of an audio filename. 02-01-06-01-02-01-12.mp4
+
 ## INSTALLATION
 
 ## TECH/FRAMEWORK USED
 
+
 ## COMPONENT 1
+#### SPEECH EMOTION RECOGNITION
+Speech Emotion Recognition (SER) is the task of recognizing the emotional aspects of speech irrespective of the semantic contents.
+
+This component takes an audio input and recognises the emotion of the speaker. The steps involved are as follows:
+##### 1. EXPLORATORY DATA ANALYSIS (EDA) OF THE DATASET
+    The key features of the audio data are namely, MFCC (Mel Frequency Cepstral Coefficients), Mel Spectrogram and Chroma.
+    
+##### 2. DATA AUGMENTATION
+    Data augmentation is the process by which we create new synthetic data samples by adding small perturbations on our initial training set.
+    To generate syntactic data for audio, we can apply noise injection, shifting time, changing pitch and speed.
+    
+##### 3. FEATURE EXTRACTION
+     The acoustic charac-teristics of the speech signal features such as pitch, energy, zero crossing rates, Mel Frequency Cepstral Coeﬃcients and Discrete Wavelet Transform        are extracted to analyze the signal .
+     
+##### 4. Data Preprocessing
+      This involves splitting the dataset into training ans test set, encoding the categorical variables using OneHotEncoder and scaling the values using StandardScaler.
+     
+##### 4. MODEL BUILDING
+      The model is trained using 1D CNN with three convolutional layers and one output layer and obtained an accuracy score of 48% on my test set
 
 ## COMPONENT 2
 
 
-
+![PROJECT_WORKFLOW](https://drive.google.com/file/d/1kw-bRMe9Ys6hoZODqFIabvT1IGumsMQO/view?usp=sharing)
 
 
 
