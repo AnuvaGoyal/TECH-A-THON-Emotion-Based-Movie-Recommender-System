@@ -14,6 +14,7 @@ The purpose of the movie recommendation system is to search for content that wou
 | 8. | Project Workflow |
 | 9. | Scope/ Improvement |
 
+
 ## OVERVIEW
 The user will be given two options, either to enter his/her mood preference or to simply give a speech input and let the system decide the mood of the user. Thereafter, the system will then recommend the movies.
 The project consists of two components:
@@ -48,6 +49,9 @@ Here's an example of an audio filename. 02-01-06-01-02-01-12.mp4
 |       |       |      |
 |:-----:|:-----:|:----:|
 |![1200px-NumPy_logo_2020 svg](https://user-images.githubusercontent.com/86526643/135712315-184057b0-2ec3-4dbd-a89f-99f2dbf409c4.png)|![1200px-Pandas_logo svg](https://user-images.githubusercontent.com/86526643/135712327-5974e3c1-e6af-419a-816f-f3b392de355c.png)|![1200px-Scikit_learn_logo_small svg](https://user-images.githubusercontent.com/86526643/135712334-a6929aec-e345-42b6-b39e-2cad2ae05472.png)|
+|![ipython-logo-300](https://user-images.githubusercontent.com/86526643/135712351-8703df40-fe71-48e8-800a-ea722435303a.png)|![keras](https://user-images.githubusercontent.com/86526643/135712364-a4efcd4b-0d26-4ab6-915d-458c04735697.jpeg)|![librosa](https://user-images.githubusercontent.com/86526643/135712371-a8bede05-4a98-4e79-bfd1-f1a597bd00f0.png)|
+|![matplotlib](https://user-images.githubusercontent.com/86526643/135712409-cd56d94b-3f14-4617-8809-3bb7b89608b2.jpg)|![sns](https://user-images.githubusercontent.com/86526643/135712460-e6c71771-c643-4c9b-806d-787faf5ac7b3.png)|
+
 
 
 
