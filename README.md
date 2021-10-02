@@ -5,7 +5,7 @@ The purpose of the movie recommendation system is to search for content that wou
 
 |S.No.| Content |
 |:--:|:--------------------:|
-| 1. | Overview |
+| 1. | Overview(#overview) |
 | 2. | Motivaton and Goal |
 | 3. | About the Dataset |
 | 4. | Downloading the Dataset|
@@ -16,7 +16,7 @@ The purpose of the movie recommendation system is to search for content that wou
 | 9. | Scope/ Improvement |
 
 
-## OVERVIEW(#overview)
+## OVERVIEW
 The user will be given two options, either to enter his/her mood preference or to simply give a speech input and let the system decide the mood of the user. Thereafter, the system will then recommend the movies.
 The project consists of two components:
 Component 1: Speech Emotion Recognition System
