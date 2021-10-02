@@ -1,0 +1,2 @@
+# TECH-A-THON-Emotion-Based-Movie-Recommender-System
+The purpose of the movie recommendation system is to search for content that would be interesting to an individual as per his/her current mood. It makes use of supervised machine learning algorithms to build a deep learning model that creates a customized list of movies that are relevant to an individual. This can be achieved through predictive modeling and heuristics with the data available.
