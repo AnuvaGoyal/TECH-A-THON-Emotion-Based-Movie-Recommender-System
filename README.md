@@ -7,7 +7,7 @@ The purpose of the movie recommendation system is to search for content that wou
 | 1. | Overview |
 | 2. | Motivaton and Goal |
 | 3. | About the Dataset |
-| 4. | Installation|
+| 4. | Downloading the Dataset|
 | 5. | Tech/Framework Used |
 | 6. | Component 1 Description|
 | 7. | Component 2 Description|
@@ -42,9 +42,13 @@ We have used the RAVDESS (Ryerson Audio-Visual Database of Emotional Speech and 
 
 Here's an example of an audio filename. 02-01-06-01-02-01-12.mp4
 
-## INSTALLATION
+## DOWNLOADING THE DATASET
 
 ## TECH/FRAMEWORK USED
+|       |       |      |
+|:-----:|:-----:|:----:|
+|![1200px-NumPy_logo_2020 svg](https://user-images.githubusercontent.com/86526643/135712315-184057b0-2ec3-4dbd-a89f-99f2dbf409c4.png)|![1200px-Pandas_logo svg](https://user-images.githubusercontent.com/86526643/135712327-5974e3c1-e6af-419a-816f-f3b392de355c.png)|![1200px-Scikit_learn_logo_small svg](https://user-images.githubusercontent.com/86526643/135712334-a6929aec-e345-42b6-b39e-2cad2ae05472.png)|
+
 
 
 ## COMPONENT 1
@@ -66,7 +70,8 @@ This component takes an audio input and recognises the emotion of the speaker. T
 >This involves splitting the dataset into training ans test set, encoding the categorical variables using OneHotEncoder and scaling the values using StandardScaler.
      
 #### 5. MODEL BUILDING
->The model is trained using 1D CNN with three convolutional layers and one output layer and obtained an accuracy score oftest set
+>The model is trained using 1D CNN with three convolutional layers and one output layer and an accuracy score of 81.57% is obtained on the test set. 
+>Generally, the average accuracy of the SER Models is 75%. Thus, we have obtained an optimal accuracy score.
 
 ## COMPONENT 2
 ### MOVIE RECOMMENDER SYSTEM
@@ -85,5 +90,11 @@ This process is done through Web Scraing the IMBb(Internet Movie Database) websi
 
 >More features can be incorporated in the model through refining the dataset with more labels.
 
->Further the Movie Recommender System can be integrated with filters such as recommending the movies on the basis on emotion, gender and age rather than just emotion.
+>*Further the Movie Recommender System can be integrated with filters such as recommending the movies on the basis on emotion and gender rather than just emotion. The SER Model can predict emotion as well as gender. So this feature will be helpful in adding on a filter according to the gender.*
+
+>*Right now, the deployment of the SER Model is successful. The Movie Recommender System is yet to be incorporated with it. *
+
+
+
+
 
