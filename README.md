@@ -89,7 +89,7 @@ This component takes an audio input and recognises the emotion of the speaker. T
 This component takes the emotion of the user predicted by the SER Model as input and recommends the latest movies accordingly.
 
 #### Web Scraping
-This process is done through Web Scraing the IMBb(Internet Movie Database) website. The dataframe given as output contains the names of the movies, their ratings and the corresponding links to visit the website for further information, classified according to the emotion.
+>This process is done through Web Scraing the IMBb(Internet Movie Database) website. The dataframe given as output contains the names of the movies, their ratings and the corresponding links to visit the website for further information, classified according to the emotion.
 
 ## PROJECT WORKFLOW
 <p align = "center"><img src = "https://user-images.githubusercontent.com/86526643/135710333-343d5b07-2446-41dc-a840-f310d7cbe74c.png"></p>
