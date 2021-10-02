@@ -52,25 +52,23 @@ Speech Emotion Recognition (SER) is the task of recognizing the emotional aspect
 
 This component takes an audio input and recognises the emotion of the speaker. The steps involved are as follows:
 ##### 1. EXPLORATORY DATA ANALYSIS (EDA) OF THE DATASET
-    The key features of the audio data are namely, MFCC (Mel Frequency Cepstral Coefficients), Mel Spectrogram and Chroma.
+    >The key features of the audio data are namely, MFCC (Mel Frequency Cepstral Coefficients), Mel Spectrogram and Chroma.
     
 ##### 2. DATA AUGMENTATION
-    Data augmentation is the process by which we create new synthetic data samples by adding small perturbations on our initial training set.
+    >Data augmentation is the process by which we create new synthetic data samples by adding small perturbations on our initial training set.
     To generate syntactic data for audio, we can apply noise injection, shifting time, changing pitch and speed.
     
 ##### 3. FEATURE EXTRACTION
-     The acoustic charac-teristics of the speech signal features such as pitch, energy, zero crossing rates, Mel Frequency Cepstral Coeﬃcients and Discrete Wavelet Transform        are extracted to analyze the signal .
+     >The acoustic charac-teristics of the speech signal features such as pitch, energy, zero crossing rates, Mel Frequency Cepstral Coeﬃcients and Discrete Wavelet Transform        are extracted to analyze the signal .
      
 ##### 4. Data Preprocessing
-      This involves splitting the dataset into training ans test set, encoding the categorical variables using OneHotEncoder and scaling the values using StandardScaler.
+      >This involves splitting the dataset into training ans test set, encoding the categorical variables using OneHotEncoder and scaling the values using StandardScaler.
      
 ##### 4. MODEL BUILDING
-      The model is trained using 1D CNN with three convolutional layers and one output layer and obtained an accuracy score of 48% on my test set
+      >The model is trained using 1D CNN with three convolutional layers and one output layer and obtained an accuracy score of 48% on my test set
 
 ## COMPONENT 2
 
-
-![PROJECT_WORKFLOW](https://drive.google.com/file/d/1kw-bRMe9Ys6hoZODqFIabvT1IGumsMQO/view?usp=sharing)
 
 
 
