@@ -46,7 +46,7 @@ Here's an example of an audio filename. 02-01-06-01-02-01-12.mp4
 ## DOWNLOADING THE DATASET
 The RAVDESS Dataset can be downloaded from kaggle using the following link
 
-    >https://www.kaggle.com/uwrfkaggler/ravdess-emotional-speech-audio
+    https://www.kaggle.com/uwrfkaggler/ravdess-emotional-speech-audio
 
 
 ## TECH/FRAMEWORK USED
