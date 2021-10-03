@@ -1,4 +1,8 @@
-# TECH-A-THON-Emotion-Based-Movie-Recommender-System
+# TECH-A-THON
+<p align = "center"><img src ="https://user-images.githubusercontent.com/86526643/135736697-48cf7d1a-6cec-4164-b1fa-1aee3db694bb.png" width="300px"></p>
+This project was done under **TECH-A-THON**, a 5-week-long event organised by the ECE Society of Birla Institute of Technology (BIT), Mesra, Ranchi.
+
+# Emotion-Based-Movie-Recommender-System
 The purpose of the movie recommendation system is to search for content that would be interesting to an individual as per his/her current mood. It makes use of supervised machine learning algorithms to build a deep learning model that creates a customized list of movies that are relevant to an individual. This can be achieved through predictive modeling and heuristics with the data available.
 
 ## TABLE OF CONTENTS
