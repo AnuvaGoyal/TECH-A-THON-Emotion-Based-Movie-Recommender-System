@@ -1,6 +1,6 @@
 # TECH-A-THON
 <p align = "center"><img src ="https://user-images.githubusercontent.com/86526643/135736697-48cf7d1a-6cec-4164-b1fa-1aee3db694bb.png" width="300px"></p>
-This project was done under **TECH-A-THON**, a 5-week-long event organised by the ECE Society of Birla Institute of Technology (BIT), Mesra, Ranchi.
+This project was done under TECH-A-THON, a 5-week-long event organised by the ECE Society of Birla Institute of Technology (BIT), Mesra, Ranchi.
 
 # Emotion-Based-Movie-Recommender-System
 The purpose of the movie recommendation system is to search for content that would be interesting to an individual as per his/her current mood. It makes use of supervised machine learning algorithms to build a deep learning model that creates a customized list of movies that are relevant to an individual. This can be achieved through predictive modeling and heuristics with the data available.
@@ -19,6 +19,7 @@ The purpose of the movie recommendation system is to search for content that wou
 | 8. | [Project Workflow](#project-workflow) |
 | 9. | [CNN Architechture of SER Model](#cnn-architecture-of-ser-model)|
 | 10. | [Scope/ Improvement](#scope-improvement) |
+| 11. | [Team Contributors](#team-contributors) |
 
 
 ## OVERVIEW
@@ -112,6 +113,11 @@ This component takes the emotion of the user predicted by the SER Model as input
 >*Further the Movie Recommender System can be integrated with filters such as recommending the movies on the basis on emotion and gender rather than just emotion. The SER Model can predict emotion as well as gender. So this feature will be helpful in adding on a filter according to the gender.*
 
 >*Right now, the deployment of the SER Model is successful. The Movie Recommender System is yet to be incorporated with it.*
+
+## Team Contributors
+> Kritika
+
+>Shivani Gupta
 
 
 
