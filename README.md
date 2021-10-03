@@ -115,9 +115,14 @@ This component takes the emotion of the user predicted by the SER Model as input
 >*Right now, the deployment of the SER Model is successful. The Movie Recommender System is yet to be incorporated with it.*
 
 ## Team Contributors
-> Kritika
+>Anuva Goyal
+https://github.com/AnuvaGoyal
+
+> Kritika 
+https://github.com/Kritika-4142
 
 >Shivani Gupta
+https://github.com/Shivani1031
 
 
 
