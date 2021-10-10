@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>EMOTION BASED MOVIE RECOMMENDER</title>
+  
+  <link rel="stylesheet" type="text/css" href="../static/css/look.css">
+  
+</head>
+
+<body>
+ <div id="login"  >
+	<h1>MOVIE RECOMMENDER</h1>
+
+     <!-- Main Input For Receiving Query to our ML -->
+    <form action="http://127.0.0.1:5000/predict_" method = "post" enctype="multipart/form-data">
+      <input type="file" name="file" accept="audio/*">
+      <button type="submit">Get recommended movies!</button>
+    </form>
+
+ </div>
+ <table>
+        <thead>
+
+          <tr>
+            {% for col in column_names %}
+            <th>
+            
+              {{col}}
+             
+            </th>
+            {% endfor %}
+          </tr>
+
+        </thead>
+        <tbody>
+          {% for row in row_data %}
+          <tr>
+            {% for col, row_ in zip(column_names, row) %}
+            <td>{{row_}}</td>
+            {% endfor %}
+          </tr>
+          {% endfor %}
+
+         
+        </tbody>
+  
+      </table>
+</body>
+</html> 
