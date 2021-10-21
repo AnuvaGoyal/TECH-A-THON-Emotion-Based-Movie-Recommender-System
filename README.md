@@ -3,7 +3,7 @@
 This project was done under TECH-A-THON, a 5-week-long event organised by the ECE Society of Birla Institute of Technology (BIT), Mesra, Ranchi.
 
 # Emotion-Based-Movie-Recommender-System
-The purpose of the movie recommendation system is to search for content that would be interesting to an individual as per his/her current mood. It makes use of supervised machine learning algorithms to build a deep learning model that creates a customized list of movies that are relevant to an individual. This can be achieved through predictive modeling and heuristics with the data available.
+The purpose of the movie recommendation system is to search for content that would be interesting to an individual as per his/her current mood and gender. It makes use of supervised machine learning algorithms to build a deep learning model that creates a customized list of movies that are relevant to an individual. This can be achieved through predictive modeling and heuristics with the data available.
 
 ## TABLE OF CONTENTS
 
@@ -91,7 +91,7 @@ This component takes an audio input and recognises the emotion of the speaker. T
 
 ## COMPONENT 2 DESCRIPTION
 ### MOVIE RECOMMENDER SYSTEM
-This component takes the emotion of the user predicted by the SER Model as input and recommends the latest movies accordingly.
+This component takes the emotion and gender of the user predicted by the SER Model as input and recommends the latest movies accordingly.
 
 #### Web Scraping
 >This process is done through Web Scraing the IMBb(Internet Movie Database) website. The dataframe given as output contains the names of the movies, their ratings and the corresponding links to visit the website for further information, classified according to the emotion.
@@ -110,9 +110,8 @@ This component takes the emotion of the user predicted by the SER Model as input
 
 >More features can be incorporated in the model through refining the dataset with more labels.
 
->*Further the Movie Recommender System can be integrated with filters such as recommending the movies on the basis on emotion and gender rather than just emotion. The SER Model can predict emotion as well as gender. So this feature will be helpful in adding on a filter according to the gender.*
+>*Further the Movie Recommender System can be integrated with filters such as recommending the movies on the basis of age, language, gender and emotion.*
 
->*Right now, the deployment of the SER Model is successful. The Movie Recommender System is yet to be incorporated with it.*
 
 ## Team Contributors
 >Anuva Goyal
